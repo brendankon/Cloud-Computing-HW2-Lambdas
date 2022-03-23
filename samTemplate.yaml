@@ -43,8 +43,3 @@ Resources:
           Properties:
             Path: /search
             Method: GET
-        Api3:
-          Type: Api
-          Properties:
-            Path: /MyResource
-            Method: ANY
