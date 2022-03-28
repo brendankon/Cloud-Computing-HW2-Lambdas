@@ -3,7 +3,7 @@ AWS.config.update({region: 'us-east-1'})
 var s3 = new AWS.S3();
 const es = require('elasticsearch')
 const conn = require('http-aws-es');
-
+#demo
 const esClient = new es.Client({
     hosts: 'https://search-photos-uexmmyetzirhawpasqqp3bf6nu.us-east-1.es.amazonaws.com',
     connectionClass: conn,
